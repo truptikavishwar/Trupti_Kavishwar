@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <style type="text/css">
+    *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #00BCD4;
+    font-size: 14px;
+}
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+.Contact-box{
+    background: #fff;
+    display: flex;
+}
+.Contact-left
+{
+    flex-basis: 60%;
+    padding: 40px 60px;
+    color: #0f0f0f;
+
+}
+.rightContact
+{
+    flex-basis: 40%;
+    padding: 40px 60px;
+    background:rgb(52, 51, 51);
+    color: #fff;
+    padding-top: 6%;
+
+}
+h1{
+    margin-bottom: 10px;
+}
+.container p{
+    margin-bottom: 40px;
+
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+.input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+} 
+textarea
+{
+    width: 100%;
+    border: 1px solid;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+button{
+    background:#00BCD4;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: rgb(5, 5, 5);
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
+}
+.label1
+{
+    margin-bottom: 6px;
+    display:block;
+    color:black;
+}
+.Contact-left h3{
+    color: #0f0f0f;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.rightContact h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+button:hover{
+    color: rgb(237, 237, 245);
+}
+
+</style>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+    <div class="container">
+        <h1>Connect with us</h1>
+        <p>We would love to respond to your queries and help you succeed.<br>Feel free to ge in touch with us.</p>
+        <!-- left column -->
+        <div class="Contact-box">
+            <div class="Contact-left">
+             <h3>Send your request...</h3>
+                <form>
+                <div class="input-row">
+                    <div class="input-group">
+                        <div class="label1">
+                        <h4>Name</h4>
+                        </div>
+                        <input type="text" placeholder="">
+                    </div>
+                    <div class="input-group">
+                        <div class="label1">
+                        <h4>Phone</h4>
+                        </div>
+                        <input type="number" placeholder="">
+                    </div>
+                </div>
+                <div class="input-row">
+                    <div class="input-group">
+                        <div class="label1">
+                        <h4>Email</h4>
+                        </div>
+                        <input type="email" placeholder="">
+                    </div>
+                    <div class="input-group">
+                        <div class="label1">
+                        <h4>Subject</h4>
+                    </div>
+                        <input type="text" placeholder="">
+                    </div>
+                </div>
+                <div class="label1">
+                <h4>Message</h4>
+                
+                <textarea rows="5" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit">SEND</button>
+        </div>
+        <!-- right column -->
+            <div class="rightContact">
+                <h3>Contact Information</h3>
+                <p>&#9993   contactus@gmail.com</p>
+                <p>&#9990   +91 123 456 7890</p>
+                <p>&#xf041   Bengluru.</p>
+            </div>
+        </div>   
+    </div>
+</body>
+</html>
